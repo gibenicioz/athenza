@@ -123,15 +123,16 @@ h3 {
   width: 110%;
   height: 370px; /* Altura maior */
   object-fit: cover;
-  border: 1.5px solid #bb5c69;
+  border: 2.5px solid #bb5c69;
   border-radius: 8px;
-  transition: transform 0.2s ease;
+  transition: transform 0.4s ease;
   cursor: pointer;
 }
 
 /* efeito ao passar o mouse */
 .item img:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
+   border-color: #262a41;
 }
 
 /* titulo */
