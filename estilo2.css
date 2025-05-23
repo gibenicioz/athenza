@@ -1,0 +1,216 @@
+body {
+  letter-spacing: 4px;
+  font-family: 'Neucha', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #3F3D3D;
+}
+
+header {
+  text-align: center;
+  padding: 0px;
+  position: relative;
+}
+
+/* titulo logo */
+.logo {
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+/* menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* itens do menu */
+.menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* conteudo principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* rodapé */
+.rodape {
+  background-color: #DEDEDE;
+  padding: 30px 20px;
+   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   font-family: 'Neucha', cursive;
+  font-size: 14px;
+}
+
+.footer-icons img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.powered {
+  flex: 1;
+  text-align: center;
+}
+
+.marca {
+  text-align: right;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* titulo  */
+.titulo-pagina {
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0;
+  font-family: 'Neucha', cursive;
+}
+
+/* blocos */
+.cardapio-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px; /* Espaço entre os blocos */
+  padding: 0 40px;
+  margin-bottom: 60px;
+}
+
+
+.item {
+  text-align: center;
+  width: 220px; 
+}
+
+/* título fora da imagem */
+.item-title {
+  font-family: 'Neucha', cursive;   
+  font-size: 24px;
+  color: #bb5c69;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* imagem clicável */
+.item img {
+  width: 110%;
+  height: 370px; /* Altura maior */
+  object-fit: cover;
+  border: 1.5px solid #bb5c69;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+/* efeito ao passar o mouse */
+.item img:hover {
+  transform: scale(1.05);
+}
+
+/* titulo */
+.titulo-pagina {
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0;
+  font-family: 'Neucha', cursive;
+}
+
+/* container dos blocos */
+.cardapio-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0 40px;
+  margin-bottom: 60px;
+}
+
+body {
+  background-color: #f2f2f2;
+   font-family: 'Neucha', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* título "Entradas" */
+.titulo {
+  text-align: center;
+  font-size: 32px;
+  margin: 40px 0 30px;
+}
+
+/* bloco do prato */
+.cardapio {
+  background-color: #de6666;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  display: flex;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px #888;
+  height: 160px; 
+  overflow: hidden; 
+  cursor: pointer;
+}
+
+/* imagem do prato */
+.imagem-prato {
+   width: 170px;
+  height: auto;
+  border-radius: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+  transition: transform 0.4s ease;
+}
+.cardapio:hover .imagem-prato {
+  transform: scale(1.1); 
+}
+/* texto do prato */
+.texto-prato {
+  color: #5B2121;
+  flex: 1;
+}
+
+.texto-prato h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.texto-prato p {
+  margin: 25px 0;
+}
+
+/* preço destacado */
+.preco {
+  color: #5B2121;
+  font-weight: bold;
+}
+
